@@ -1,0 +1,81 @@
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.exe.config
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.exe
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.pdb
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.csprojResolveAssemblyReference.cache
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\MainWindow.baml
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\MainWindow.g.cs
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\App.g.cs
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand_MarkupCompile.cache
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.g.resources
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.Properties.Resources.resources
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.csproj.GenerateResource.Cache
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.exe
+c:\users\sirett\documents\visual studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.pdb
+H:\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.exe.config
+H:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.exe
+H:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.pdb
+H:\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.exe
+H:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.csprojResolveAssemblyReference.cache
+H:\SerialCATCommand\SerialCATCommand\obj\Debug\MainWindow.baml
+H:\SerialCATCommand\SerialCATCommand\obj\Debug\MainWindow.g.cs
+H:\SerialCATCommand\SerialCATCommand\obj\Debug\App.g.cs
+H:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand_MarkupCompile.cache
+H:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.g.resources
+H:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.Properties.Resources.resources
+H:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.csproj.GenerateResource.Cache
+H:\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.pdb
+I:\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.exe.config
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.exe
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.pdb
+I:\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.exe
+I:\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.pdb
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.csprojResolveAssemblyReference.cache
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\MainWindow.baml
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\MainWindow.g.cs
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\App.g.cs
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand_MarkupCompile.cache
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.g.resources
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.Properties.Resources.resources
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.csproj.GenerateResource.Cache
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\Dial.g.cs
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand_MarkupCompile.lref
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\Dial.baml
+I:\SerialCATCommand\SerialCATCommand\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.exe.config
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.exe
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.pdb
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.exe
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.pdb
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.csprojResolveAssemblyReference.cache
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\Dial.g.cs
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\MainWindow.g.cs
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\App.g.cs
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand_MarkupCompile.cache
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand_MarkupCompile.lref
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\Dial.baml
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\MainWindow.baml
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.g.resources
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.Properties.Resources.resources
+D:\GUILLERMITO ESCUELA\!!!!Proyecto\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.csproj.GenerateResource.Cache
+C:\Users\SiretT\Documents\Visual Studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\Dial.g.cs
+C:\Users\SiretT\Documents\Visual Studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\SiretT\Documents\Visual Studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand_MarkupCompile.lref
+C:\Users\SiretT\Documents\Visual Studio 2013\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\Dial.baml
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.exe.config
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.exe
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.pdb
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.exe
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\bin\Debug\SerialCATCommand.pdb
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\Dial.g.cs
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\MainWindow.g.cs
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\App.g.cs
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand_MarkupCompile.cache
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand_MarkupCompile.lref
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\Dial.baml
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\MainWindow.baml
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.g.resources
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.Properties.Resources.resources
+C:\Users\Ricardo\Documents\Visual Studio 2015\Projects\SerialCATCommand\SerialCATCommand\obj\Debug\SerialCATCommand.csproj.GenerateResource.Cache
