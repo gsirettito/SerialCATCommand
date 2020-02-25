@@ -4,7 +4,7 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:local="clr-namespace:SerialCATCommand"
         x:Class="SerialCATCommand.MainWindow"
-        Title="MainWindow" Height="400" Width="700">
+        Title="CAT para SDR" Height="400" Width="700">
     <Window.Resources>
         <local:BooleanToVisibilityConverter x:Key="boolC"/>
         <Grid x:Key="DialTemplate" Width="250" Height="250">
@@ -194,7 +194,18 @@
         </Style>
     </Window.Resources>
     <DockPanel>
-        <Grid DockPanel.Dock="Left" Background="#FFE6E6E6">
+        <Expander DockPanel.Dock="Left" Background="#FFE6E6E6" ExpandDirection="Left">
+            <Expander.Header>
+                <TextBlock RenderTransformOrigin="1,1" Margin="-50,-15,0,0">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>Puerto serie</TextBlock>
+            </Expander.Header>
             <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Width="150" Margin="10">
                 <TextBlock><Run Text="COM Port"/></TextBlock>
                 <ComboBox x:Name="comports" DropDownOpened="comports_DropDownOpened"/>
@@ -213,7 +224,7 @@
                     <sys:String>115200</sys:String>
                 </ComboBox>
             </StackPanel>
-        </Grid>
+        </Expander>
         <DockPanel Background="#FF212121">
             <StackPanel Margin="25">
                 <CheckBox x:Name="_power" Width="45" Height="{Binding Width, RelativeSource={RelativeSource Self}}" Checked="_power_Checked" Unchecked="_power_Unchecked"/>

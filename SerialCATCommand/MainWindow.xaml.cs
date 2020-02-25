@@ -1,26 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO.Ports;
-using System.Management;
 using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
 namespace SerialCATCommand {
-    public class USBDeviceInfo {
-        public USBDeviceInfo(string _deviceID, string _pnpDeviceID, string _description, string _name) {
-            this.DeviceID = _deviceID;
-            this.PnpDeviceID = _pnpDeviceID;
-            this.Description = _description;
-            this.Name = _name;
-        }
-        public string DeviceID { get; private set; }
-        public string PnpDeviceID { get; private set; }
-        public string Description { get; private set; }
-        public string Name { get; private set; }
-    }
-
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
@@ -40,28 +26,6 @@ namespace SerialCATCommand {
             isReady = true;
             this.Loaded += MainWindow_Loaded;
             dial.MouseUp += Dial_MouseUp;
-        }
-
-        static List<USBDeviceInfo> GetUSBDevices(string filter = null) {
-            List<USBDeviceInfo> devices = new List<USBDeviceInfo>();
-
-            ManagementObjectCollection collection;
-            using (var searcher = new ManagementObjectSearcher(@"Select * From Win32_PnPEntity"))
-                collection = searcher.Get();
-
-            try {
-                foreach (var device in collection) {
-                    string name = device.GetPropertyValue("Name").ToString();
-                    if (filter != null && !name.ToLower().Contains(filter.ToLower())) continue;
-                    string description = (string)device.GetPropertyValue("Description");
-                    string pnpDeviceID = (string)device.GetPropertyValue("PNPDeviceID");
-                    string deviceID = (string)device.GetPropertyValue("DeviceID");
-                    devices.Add(new USBDeviceInfo(deviceID, pnpDeviceID, description, name));
-                }
-            } catch { }
-
-            collection.Dispose();
-            return devices;
         }
 
         private void Dial_MouseUp(object sender, System.Windows.Input.MouseButtonEventArgs e) {
@@ -93,12 +57,6 @@ namespace SerialCATCommand {
             disp.Text = String.Format("{0:N3}", freq * 1E-6).Replace(",", ".");
             dial.ValueChanged += slider_ValueChanged;
 
-            /*foreach (RadioButton rb in bandRA.Children) {
-                rb.Checked -= RadioButton_Checked;
-                rb.IsChecked = false;
-                rb.Checked += RadioButton_Checked;
-            }*/
-
             if (freq >= 1.800E+6 && freq <= 1.850E+6) (bandRA.Children[0] as RadioButton).IsChecked = true;
             if (freq >= 3.500E+6 && freq <= 4.000E+6) (bandRA.Children[1] as RadioButton).IsChecked = true;
             if (freq >= 7.000E+6 && freq <= 7.300E+6) (bandRA.Children[2] as RadioButton).IsChecked = true;
@@ -111,33 +69,14 @@ namespace SerialCATCommand {
         }
 
         private void comports_DropDownOpened(object sender, EventArgs e) {
-            List<USBDeviceInfo> _comp = new List<USBDeviceInfo>();
-            //_comp.Add("None");
-            foreach (var i in GetUSBDevices())
-                if (i.Name.Contains("COM"))
-                    _comp.Add(i);//Range(SerialPort.GetPortNames());
+            List<string> _comp = new List<string>();
+            _comp.Add("None");
+            _comp.AddRange(SerialPort.GetPortNames());
             comports.ItemsSource = _comp;
             comports.SelectedIndex = 0;
         }
 
         void comports_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e) {
-            //if (comports.SelectedValue == null || combaud.SelectedValue == null || comports.SelectedIndex == 0) {
-            //    if (sp != null && sp.IsOpen) sp.Close();
-            //    return;
-            //}
-            //if (sp != null && sp.IsOpen) sp.Close();
-            //sp = new SerialPort(comports.SelectedValue.ToString());
-            //sp.BaudRate = Convert.ToInt32(combaud.SelectedValue.ToString());
-            //sp.DataReceived += sp_DataReceived;
-            //try {
-            //    sp.Open();
-            //    sp.Write("r");
-            //    Thread.Sleep(100);
-            //    ZZFA(dial.Value * 1E+6);
-            //} catch (Exception ex) {
-            //    comports.SelectedIndex = 0;
-            //    MessageBox.Show(ex.Message, this.Title, MessageBoxButton.OK, MessageBoxImage.Error);
-            //}
         }
 
         void sp_DataReceived(object sender, SerialDataReceivedEventArgs e) {
@@ -178,7 +117,7 @@ namespace SerialCATCommand {
                 return;
             }
             if (sp != null && sp.IsOpen) sp.Close();
-            sp = new SerialPort((comports.SelectedValue as USBDeviceInfo).Name.ToString());
+            sp = new SerialPort(comports.SelectedValue.ToString());
             sp.BaudRate = Convert.ToInt32(combaud.SelectedValue.ToString());
             sp.DataReceived += sp_DataReceived;
             try {
